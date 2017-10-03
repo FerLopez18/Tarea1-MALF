@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package tarea1malf;
 
 /**
  *
  * @author fernanda
  */
-public class Main {
+public class Tarea1Malf {
 
     /**
      * @param args the command line arguments
