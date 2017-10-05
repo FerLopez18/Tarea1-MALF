@@ -16,6 +16,9 @@ public class Tarea1Malf {
      */
     public static void main(String[] args) {
         InfixToPostfix prueba = new InfixToPostfix();
+        
+        RegExConverter prueba2 = new RegExConverter();
+        System.out.println("postfix: " + prueba2.infixToPostfix("a|(a.b)*"));
     }
     
 }

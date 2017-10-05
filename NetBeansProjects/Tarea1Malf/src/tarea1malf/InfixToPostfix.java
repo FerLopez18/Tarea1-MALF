@@ -15,10 +15,10 @@ public class InfixToPostfix {
 
     public InfixToPostfix() {
         String er = "a|(a.b)*";
-        this.stack = new char[er.length()-1];
+        this.stack = new char[er.length()];
         this.top = -1;
-        char[] infix = new char[er.length()-1];
-        char postfix[] = new char[er.length()-1];
+        char[] infix = new char[er.length()];
+        char postfix[] = new char[er.length()];
         infix = er.toCharArray();
         conversion(infix,postfix); 
         imprimir("in", infix);
